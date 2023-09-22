@@ -34,3 +34,8 @@ variable "cluster_version" {
     default = 1.27
     description = "EKS Cluster Version"
 }
+
+variable "name" {
+    default = "admin"
+    description = "EKS Cluster Version"
+}
